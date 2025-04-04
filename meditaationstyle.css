@@ -80,6 +80,45 @@ p{
    
     margin-left: 10px;
 }
+/**info**/
+.infomed{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info{
+    height: 300px;
+    width: 90%;
+    border: none;
+    border-radius: 15px;
+    background-color: #93ed81;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boxx{
+    height: 250px ;
+    width:200px ;
+    margin-left: 10px;
+    background-color: #f4fecc;
+    border: none;
+    border-radius: 15px;
+
+}
+#pp{
+    font-family: Impact, sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#boxx p{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 /**Medoption**/
 .boxes1{
     margin-top: 10px;
