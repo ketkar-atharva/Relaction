@@ -151,3 +151,12 @@ p{
     align-items: center;
     font-size: 100px;
 }
+.box2 p{
+    margin-left: 10px;
+}
+.sun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
