@@ -145,6 +145,56 @@ p{
     
 
 }
+.bottle{
+    display: flex;
+   margin-left: 5px;
+
+    font-size: 120px;
+}
+.animate{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.watercontainer{
+    display: none;
+    height: 120px;
+    width: 50px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-radius: 10px;
+    background-color:rgb(15, 187, 244) ;
+    animation: fill 1s normal 0s 1  ease-in;
+}
+@keyframes fill{
+    
+    0%{
+        background-color: white;
+
+    }
+    20%{
+        background-color: rgb(178, 231, 253);
+    }
+    40%{
+        background-color: rgb(130, 214, 242);
+    }
+    60%{
+        background-color: rgb(92, 205, 243);
+    }
+    80%{
+        background-color: rgb(76, 204, 247);
+    }
+    100%{
+        background-color: rgb(15, 187, 244);
+    }
+    
+    
+
+}
+
 
 /**Footer**/
 .footpanel{
