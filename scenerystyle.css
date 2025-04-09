@@ -155,3 +155,16 @@ p{
     justify-content: center;
     font-size: 120px;
 }
+
+/**Footer**/
+.footpanel{
+    height: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color:#168AAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
