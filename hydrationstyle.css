@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+    background-color: #f1f8d8;
+}
+
+/**Panel**/
+h3{
+    font-family: Impact, sans-serif;
+    font-weight: 400;
+}
+.entrypanel{
+    height: 60px;
+    align-items: center;
+    
+  font-size: 25px;
+    background-color:#168AAD;
+    color: white;
+    font-weight: 700;
+    display: flex;
+}
+.panelop{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    margin-top: 7px;
+    padding-left: 4px;
+    width: 25%;
+}
+.option{
+    display: flex;
+    justify-items: flex-end;
+    margin-left: 700px;
+}
+/**Heading**/
+.container{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.heading{
+
+    height: 200px;
+    
+    background-size: cover;
+    background-color: #f5f5f3e4;
+}
+.contentheading{
+    height: 200px;
+    width: 70%;
+    background-color: lightgreen;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px ;
+}
+.headmed h1{
+    margin-top: 10px;
+    margin-left: 15px;
+    align-items: center;
+  
+}
+h1{
+    font-family: Impact, sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+p{
+    font-family: sans-serif;
+}
+.contentheading p{
+   
+    margin-left: 10px;
+}
+/**info**/
+.infomed{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info{
+    height: 300px;
+    width: 90%;
+    border: none;
+    border-radius: 15px;
+    background-color: #93ed81;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boxx{
+    height: 250px ;
+    width:200px ;
+    margin-left: 10px;
+    background-color: #f4fecc;
+    border: none;
+    border-radius: 15px;
+
+}
+#pp{
+    font-family: Impact, sans-serif;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#boxx p{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+/**Medoption**/
+.boxes1{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+#box{
+    height: 350px;
+    width: 25%;
+    background-color: white;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box1 p{
+    margin-left: 10px;
+    
+
+}
+
+/**Footer**/
+.footpanel{
+    height: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color:#168AAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
