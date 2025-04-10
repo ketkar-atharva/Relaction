@@ -155,6 +155,7 @@ p{
 
 .box2 p{
     margin-left: 10px;
+    z-index: -1;
 }
 .settime{
     display: flex;
@@ -163,7 +164,8 @@ p{
 
 }
 #timerbutton{
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-left: 80px;
     height: 50px;
     width: 100px;
     border: none;
@@ -173,40 +175,130 @@ p{
 }
 .time{
     margin-left: 100px;
-    display: flex;
-    justify-content: center;
+    display: none;
+    justify-content: space-evenly;
     align-items: center;
+  
     height: 100px ;
     width: 100px;
-    border: 10px solid rgb(161, 156, 156);
-   border-top: 10px solid black;
- position: relative;
+   border: none;
+position: relative;
     border-radius: 50%;
     
-
+    
 }
-@property --angle{
-    syntax:"<angle>";
-    initial-value: 0deg;
-    inherits: false;
+.time::after,.time::before{
+     content: '';
+     position: absolute;
+     height: 100%;
+     width: 100%;
+  
+     top: 0.75%;
+     left:0.75%;
+     translate: -0.75%,-0.75%;
+     z-index: 1;
+     border: 10px solid rgb(161, 156, 156);
+     border-top: 10px solid black;
+    border-radius: 50%;
+    animation: spintimer 0.95s normal 1s 600  ease-in;
 }
-.time::after .time ::before{
+.time p{
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+    
+}
+#tenmin{
+    display: none;
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #168AAD;
+}
+#fivmin{
+    display: none;
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #168AAD;
+}
+#twemin{
+    display: none;
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 50px;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #168AAD;
+}
+.time1{
+    margin-left: 100px;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    height: 100px ;
+    width: 100px;
+   border: none;
+position: relative;
+    border-radius: 50%;
+}
+.time1::after,.time1::before{
     content: '';
-    background-color: var(--angle);
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgb(149, 146, 146);
+ 
+    top: 0.75%;
+    left:0.75%;
+    translate: -0.75%,-0.75%;
+    z-index: 1;
+    border: 10px solid rgb(161, 156, 156);
+    border-top: 10px solid black;
+   border-radius: 50%;
+   animation: spintimer 0.95s normal 1s 900  ease-in;
+}
+.time2{
+    margin-left: 100px;
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    height: 100px ;
+    width: 100px;
+   border: none;
+position: relative;
     border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-    z-index:-1 ;
-    animation: spintimer 0.75s normal 0s infinite ;
 }
-.time::before{
-    
+.time2::after,.time2::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+ 
+    top: 0.75%;
+    left:0.75%;
+    translate: -0.75%,-0.75%;
+    z-index: 1;
+    border: 10px solid rgb(161, 156, 156);
+    border-top: 10px solid black;
+   border-radius: 50%;
+   animation: spintimer 0.95s normal 1s 1200  ease-in;
 }
+
+
+
 
 @keyframes spintimer {
   from{
@@ -218,6 +310,9 @@ p{
  
     
 }
+
+
+
 
 
 
