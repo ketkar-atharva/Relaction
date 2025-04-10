@@ -36,11 +36,11 @@ function show(){
              t.textContent=n+":"+h;
              h++;
             }
-            if(h==61 ){
+            if(h==60 ){
                 n++;
-                h=1;
+                h=0;
             }
-            if(n<=10 && h==1){
+            if(n==10 && h==1){
                 n=10;
                 h=0;
             }
@@ -63,11 +63,11 @@ function show1(){
              n
              h++;
             }
-            if(h==61 ){
+            if(h==60 ){
                 n++;
-                h=1;
+                h=0;
             }
-            if(n<=15 && h==1){
+            if(n==15 && h==1){
                 n=15;
                 h=0;
             }
@@ -89,11 +89,11 @@ function show2(){
              t2.textContent=n+":"+h;
              h++;
             }
-            if(h==61 ){
+            if(h==60 ){
                 n++;
-                h=1;
+                h=0;
             }
-            if(n<=20 && h==1){
+            if(n==20 && h==1){
                 n=20;
                 h=0;
             }
